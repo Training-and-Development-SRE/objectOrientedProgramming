@@ -6,3 +6,4 @@ bike.py, car.py, product.py -- practice creating and instantiating classes
 store.py -- practice using two complementary classes together
 animal.py -- practice for class inheritance
 MathDojo.py -- practice with advanced parameters
+call.py -- practice defining complementary classes / sorting with a compare function
