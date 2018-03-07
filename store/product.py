@@ -1,4 +1,6 @@
 class Product(object):
+    def __repr__(self):
+        return "<Product object: {}, price: {}, weight: {}, brand: {}>".format(self.name, self.price, self.weight, self.brand)
     def __init__(self, name, price, weight, brand):
         self.name = name
         self.price = price
@@ -32,3 +34,4 @@ class Product(object):
 if __name__ == "__main__":
     shoe2 = Product("tennis shoe", 30, 5, "Nike")
     shoe2.display()
+    print(shoe2.__repr__())

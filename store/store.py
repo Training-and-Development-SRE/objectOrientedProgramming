@@ -1,4 +1,6 @@
 class Store(object):
+    def __repr__(self):
+        return "<Store object, products: {}, location: {}, owner: {}>".format(self.products, self.location, self.owner)
     def __init__(self, products, location, owner):
         self.products = products
         self.location = location
@@ -18,4 +20,4 @@ class Store(object):
 
 if __name__ == "__main__":
     walmart = Store([],"Chicago","Chris Poche")
-    print("{} owns this store.".format(walmart.owner))
+    print(walmart.__repr__())
