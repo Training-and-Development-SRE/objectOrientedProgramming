@@ -8,3 +8,4 @@ animal.py -- practice for class inheritance
 MathDojo.py -- practice with advanced parameters
 call.py -- practice defining complementary classes / sorting with a compare function
 _.py -- recreates basic functionality for javascript _ library (practice with classes and lambda)
+/store -- practice handling different classes in a more modular fashion
